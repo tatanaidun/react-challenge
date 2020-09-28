@@ -1,0 +1,46 @@
+.header {
+  font-family: Epilogue;
+  height: 60px;
+  color: #031047;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a2acd3;
+  padding: 0 13% 0 10%;
+  border-bottom: 1px solid #e4e9fd;
+  transition: box-shadow ease;
+}
+
+.header:hover {
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.header__logo > p {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.header__login > a {
+  text-decoration: none;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__login,
+.header__edit,
+.header__viewmode {
+  padding: 0 0 0 10%;
+}

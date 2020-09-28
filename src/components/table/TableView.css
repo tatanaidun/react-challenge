@@ -1,0 +1,21 @@
+.MuiButtonBase-root {
+  width: 80px;
+  padding-top: 10px;
+  margin-left: 3px !important;
+}
+
+.table {
+  position: relative;
+}
+
+th {
+  font-family: Epilogue !important;
+  font-weight: 500;
+}
+
+.note {
+  position: relative;
+  font-size: small;
+  top: 40px;
+  padding-left: 10px;
+}
